@@ -1,34 +1,34 @@
-// Cosmo 5.2.2
+// Cosmo 5.2.2 a la Milliman
 // Bootswatch
 
 $theme: "cosmo" !default;
 
 //
-// Color system
+// Color system -- Modified to use Milliman branding
 //
 
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #373a3c !default;
-$gray-900: #212529 !default;
-$black:    #000 !default;
+$gray-100: #f4f4f4 !default;
+$gray-200: #e2e2e2 !default;
+$gray-300: #c7c9ca !default;
+$gray-400: #aeb0b3 !default;
+$gray-500: #94989d !default;
+$gray-600: #7c8087 !default;
+$gray-700: #646a72 !default;
+$gray-800: #4d545d !default;
+$gray-900: #373f49 !default;
+$black:    #222b36 !default;  // Milliman's obsidian
 
-$blue:    #2780e3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #613d7c !default;
-$pink:    #e83e8c !default;
-$red:     #ff0039 !default;
-$orange:  #f0ad4e !default;
-$yellow:  #ff7518 !default;
-$green:   #3fb618 !default;
-$teal:    #20c997 !default;
-$cyan:    #9954bb !default;
+$blue:    #005AAD !default;  // darker version of ocean
+$indigo:  #0078D4 !default;  // ocean
+$purple:  #74BF60 !default;  // spring - actually green
+$pink:    #D97A7D !default;  // lava 60%
+$red:     #C02126 !default;  // lava
+$orange:  #FFA100 !default;  // gold
+$yellow:  #FFC800 !default;  // sun
+$green:   #00A562 !default;  // emerald
+$teal:    #00989F !default;  // turquoise
+$cyan:    #50BDFF !default;  // sky
 
 $primary:       $blue !default;
 $secondary:     $gray-800 !default;
@@ -52,7 +52,7 @@ $body-color:    $gray-800 !default;
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:    "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $headings-font-weight:      400 !default;
 
 // Navbar
